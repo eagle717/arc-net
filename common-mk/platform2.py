@@ -397,8 +397,6 @@ def GetParser():
                       action='split_extend', help='USE flags to enable')
   parser.add_argument('-j', '--jobs', type=int, default=None,
                       help='number of jobs to run in parallel')
-  parser.add_argument('--verbose', action='store_true', default=None,
-                      help='enable verbose log output')
   parser.add_argument('--platform_subdir', required=True,
                       help='subdir in platform2 where the package is located')
   parser.add_argument('args', nargs='*')
